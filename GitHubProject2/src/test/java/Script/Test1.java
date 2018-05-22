@@ -24,9 +24,9 @@ public void InstaLogin() {
 	ele.sendKeys(Keys.ENTER);
 	String actual = driver.getTitle();
 	System.out.println(actual);
-	//String exp = "instagram";
-	//Assert.assertEquals(actual, exp);
-    //Reporter.log("test pass",true);
+	String exp = "instagram - Google Search";
+	Assert.assertEquals(actual, exp);
+    Reporter.log("test pass",true);
 	driver.close();
 }	
 }
