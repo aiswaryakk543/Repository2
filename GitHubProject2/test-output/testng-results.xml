@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68591" started-at="2018-05-22T15:01:15Z" finished-at="2018-05-22T15:02:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68591" started-at="2018-05-22T15:01:15Z" finished-at="2018-05-22T15:02:23Z">
+      <class name="Script.Test1">
+        <test-method status="PASS" signature="InstaLogin()[pri:0, instance:Script.Test1@3e6fa38a]" name="InstaLogin" duration-ms="68530" started-at="2018-05-22T15:01:15Z" finished-at="2018-05-22T15:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstaLogin -->
+      </class> <!-- Script.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
