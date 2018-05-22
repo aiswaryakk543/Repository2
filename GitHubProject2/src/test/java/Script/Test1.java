@@ -7,6 +7,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Test1 {
@@ -20,9 +22,11 @@ public void InstaLogin() {
 	WebElement ele = driver.findElement(By.name("q"));
 	ele.sendKeys("instagram");
 	ele.sendKeys(Keys.ENTER);
+	String actual = driver.getTitle();
+	System.out.println(actual);
+	//String exp = "instagram";
+	//Assert.assertEquals(actual, exp);
+    //Reporter.log("test pass",true);
 	driver.close();
-}
-	
-
-	
+}	
 }
